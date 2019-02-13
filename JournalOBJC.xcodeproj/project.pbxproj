@@ -8,24 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		62B6E05022120DCD00183A3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B6E04F22120DCD00183A3A /* AppDelegate.m */; };
-		62B6E05322120DCD00183A3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B6E05222120DCD00183A3A /* ViewController.m */; };
 		62B6E05622120DCD00183A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B6E05422120DCD00183A3A /* Main.storyboard */; };
 		62B6E05822120DCE00183A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B6E05722120DCE00183A3A /* Assets.xcassets */; };
 		62B6E05B22120DCE00183A3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B6E05922120DCE00183A3A /* LaunchScreen.storyboard */; };
 		62B6E05E22120DCE00183A3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B6E05D22120DCE00183A3A /* main.m */; };
+		62B6E06722120E1C00183A3A /* RLGEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B6E06622120E1C00183A3A /* RLGEntry.m */; };
+		62B6E06B221211D600183A3A /* RLGEntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B6E06A221211D600183A3A /* RLGEntryController.m */; };
+		62B6E06F2212222C00183A3A /* EntryListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B6E06E2212222C00183A3A /* EntryListTableViewController.m */; };
+		62B6E07422122AC500183A3A /* EntryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B6E07322122AC500183A3A /* EntryDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		62B6E04B22120DCD00183A3A /* JournalOBJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JournalOBJC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B6E04E22120DCD00183A3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62B6E04F22120DCD00183A3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		62B6E05122120DCD00183A3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		62B6E05222120DCD00183A3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		62B6E05522120DCD00183A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62B6E05722120DCE00183A3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62B6E05A22120DCE00183A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62B6E05C22120DCE00183A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62B6E05D22120DCE00183A3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62B6E06522120E1C00183A3A /* RLGEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLGEntry.h; sourceTree = "<group>"; };
+		62B6E06622120E1C00183A3A /* RLGEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLGEntry.m; sourceTree = "<group>"; };
+		62B6E069221211D600183A3A /* RLGEntryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLGEntryController.h; sourceTree = "<group>"; };
+		62B6E06A221211D600183A3A /* RLGEntryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLGEntryController.m; sourceTree = "<group>"; };
+		62B6E06D2212222C00183A3A /* EntryListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryListTableViewController.h; sourceTree = "<group>"; };
+		62B6E06E2212222C00183A3A /* EntryListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntryListTableViewController.m; sourceTree = "<group>"; };
+		62B6E07222122AC500183A3A /* EntryDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryDetailViewController.h; sourceTree = "<group>"; };
+		62B6E07322122AC500183A3A /* EntryDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntryDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +67,63 @@
 		62B6E04D22120DCD00183A3A /* JournalOBJC */ = {
 			isa = PBXGroup;
 			children = (
-				62B6E04E22120DCD00183A3A /* AppDelegate.h */,
-				62B6E04F22120DCD00183A3A /* AppDelegate.m */,
-				62B6E05122120DCD00183A3A /* ViewController.h */,
-				62B6E05222120DCD00183A3A /* ViewController.m */,
+				62B6E06822120E2400183A3A /* Models */,
+				62B6E06C221211DD00183A3A /* Controllers */,
 				62B6E05422120DCD00183A3A /* Main.storyboard */,
 				62B6E05722120DCE00183A3A /* Assets.xcassets */,
+				62B6E06422120DE700183A3A /* Resources */,
+			);
+			path = JournalOBJC;
+			sourceTree = "<group>";
+		};
+		62B6E06422120DE700183A3A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				62B6E04E22120DCD00183A3A /* AppDelegate.h */,
+				62B6E04F22120DCD00183A3A /* AppDelegate.m */,
 				62B6E05922120DCE00183A3A /* LaunchScreen.storyboard */,
 				62B6E05C22120DCE00183A3A /* Info.plist */,
 				62B6E05D22120DCE00183A3A /* main.m */,
 			);
-			path = JournalOBJC;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		62B6E06822120E2400183A3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				62B6E06522120E1C00183A3A /* RLGEntry.h */,
+				62B6E06622120E1C00183A3A /* RLGEntry.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		62B6E06C221211DD00183A3A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				62B6E0702212223200183A3A /* ModelControllers */,
+				62B6E0712212223B00183A3A /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		62B6E0702212223200183A3A /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				62B6E069221211D600183A3A /* RLGEntryController.h */,
+				62B6E06A221211D600183A3A /* RLGEntryController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		62B6E0712212223B00183A3A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				62B6E06D2212222C00183A3A /* EntryListTableViewController.h */,
+				62B6E06E2212222C00183A3A /* EntryListTableViewController.m */,
+				62B6E07222122AC500183A3A /* EntryDetailViewController.h */,
+				62B6E07322122AC500183A3A /* EntryDetailViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62B6E05322120DCD00183A3A /* ViewController.m in Sources */,
+				62B6E07422122AC500183A3A /* EntryDetailViewController.m in Sources */,
+				62B6E06722120E1C00183A3A /* RLGEntry.m in Sources */,
 				62B6E05E22120DCE00183A3A /* main.m in Sources */,
+				62B6E06B221211D600183A3A /* RLGEntryController.m in Sources */,
 				62B6E05022120DCD00183A3A /* AppDelegate.m in Sources */,
+				62B6E06F2212222C00183A3A /* EntryListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JournalOBJC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/JournalOBJC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = JournalOBJC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/JournalOBJC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
